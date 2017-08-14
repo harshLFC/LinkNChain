@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Link N Chain</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+<link href="myStyle.css" rel="stylesheet" type="text/css">
+<script type"text/javascript" src="myJavaScript.js"></script>
+<script type"text/javascript" src="myJavaScript_2.js"></script>
+<style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+</head>
+<body>
+
+	
+	<div id="header">
+	<ul class="ull">
+	  <a href="Link_N_Chain.html" id="logo"><img src="Logo.png" width="180" height="80" alt="" style="float: left"></a>
+	  <li><a class="active" href="Link_N_Chain.html">Home</a></li>
+		  <li><a href="product_page.html">Products</a></li>
+		  <li><a href="about_page.html">About</a></li>
+		  <li><a href="#about">Contact</a></li>
+		  <li><a href="myProject/public_html/index.html">Keith's Part</a></li> 
+		  <input id ="text" name="search" placeholder="Search..">
+		  </ul>	
+	</div>
+	
+	<div id="container">
+	<div id="scroll">
+  <div >
+	  <img src="bike_main.png" width="100%" height="100%" alt=""/style="background-attachment: fixed"> 
+</div>
+  
+	  <br>
+	  
+	<div id="featured" style="background-color: white">
+		<img id="image" src="Bike_2.jpg" width="420px" height="300px">	
+		<section id="pos">
+		<!--<h2 style="position:relative" left="-200px">"Fortified"</h2>-->
+		<h2>€ 379.00</h2>
+			<p1>Model : F176T <br>
+Color: <img src="color_chip_1.jpg" height="40px" width="40px"> <br>
+Features: Wheel Size:28 inch<br>
+	  Suitable for everyone over 5ft6in<br>
+	  Gears: Yes 6-Gears<br>
+	  Brakes: Drum <br> 	 
+	  LED reflectors
+	  </p1>
+		</section>
+		
+		<input type="button" id="inputButton" value="Add to cart" onClick="toCart()">
+		
+		<form name="form1" id="form1" style="position:absolute;left:900px;top:1140px;z-index: 1">
+<select name="jumpmenu" onChange="dropDown(document.form1.dropDown.options[document.form1.dropDown.options.selectedIndex].value)">
+<option>select</option>
+<option>one</option>
+<option>two</option>
+<option>three</option>
+<option>four</option>
+<option>five</option>
+<option>six</option>
+</select>
+</form>
+
+	</div>
+	
+	<br>
+	
+  <div id="featured" style="background-color: white">
+		<img id="image" src="Bike_2.jpg" width="420px" height="300px">	
+		<section id="pos">
+		<!--<h2 style="position:relative" left="-200px">"Fortified"</h2>-->
+		<h2>€ 379.00</h2>
+			<p1>Model : F176T <br>
+Color: <img src="color_chip_1.jpg" height="40px" width="40px"> <br>
+Features: Wheel Size:28 inch<br>
+	  Suitable for everyone over 5ft6in<br>
+	  Gears: Yes 6-Gears<br>
+	  Brakes: Drum <br> 	 
+	  LED reflectors
+	  </p1>
+		</section>
+		<input type="button" id="inputButton" value="Add to cart" onClick="toCart()">
+		
+		<form name="form1" id="form1" style="position: relative;
+	top: -323px;left:900px;">
+<select name="jumpmenu" onChange="dropDown(document.form1.dropDown.options[document.form1.dropDown.options.selectedIndex].value)">
+<option>select</option>
+<option>one</option>
+<option>two</option>
+<option>three</option>
+<option>four</option>
+<option>five</option>
+<option>six</option>
+</select>
+</form>
+
+	</div>
+	
+  <br>
+  <h1 id="mainText"> We are opening SOON !! </h1>
+  <div id="map" style="width: 100%-10%; height: 400px padding:0px">
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgSzkJO-Qw5SorC13GcimtY6UERDSrybA&callback=initMap">
+    </script>
+  	
+  </div>
+  
+	  <div id="main">	
+	  <h2>Main</h2>
+	  <img src="Bike_1.jpg" width="290" height="150" alt="#">
+	  </div>
+		  
+		<div id="textimage">		
+		</div>	
+		<div id="about" type="button1"> <a name="about"></a>	
+	  	
+	  	<h1><span style="color: white">Contact us</span></h1>
+		  <p> Got questions?</p>
+		  <p> Dont worry , we are here </p>
+		  
+		 <h3><span style="position: relative; left: 1000;border: solid black 1px">Call us</span></h3>
+		  <p>0857 278 901</p>
+		  
+		  <h3>Visit our shop</h3>
+		  <p>10 Oxford Walk, Dublin 1</p>
+		  <h3>Opening hours</h3>
+		  <p>12:00 pm - 8:00 pm</p>
+		  
+		  
+		<p>
+						<form name="my_form">
+							<p><label for="user_name"><b>Name:</b></label>
+								<input type="text" id="user_name" name="user_name"></p>
+							<p id="user_name_check"></p>
+							
+							<p><label for="user_email"><b>Email:</b></label>
+							<input type="text" id="user_email" name="user_email"></p>
+							<p id="user_email_check"></p>
+											
+							
+							<p><input type="checkbox" name="contact_terms" id="agrees" value="agrees"> I agree to the Terms and Conditions</a>.</p>
+							<p id="check_terms"></p>
+							
+							<p id="display_contacts"></p>
+							<p><input type="button" class="button long" value="Submit" onclick="checkForm();" </p>
+							
+
+		  
+		  
+		  
+		  
+		  </div>
+		<div style="height:200px; width: 98%; color:#;background-color:#ee3344;top:40 px;border: solid black 3px; bottom:0px;margin:auto;position: relative">
+	<h2 style="text-align: center">This is a footer</h2>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac elit sem. Nulla condimentum dui in magna semper porttitor. Quisque pharetra mauris ac odio consequat, nec viverra elit cursus. Integer fermentum in nisl in porttitor. 
+	</p>
+  
+	  <img src="Logo_1.jpg" width="54" height="66" alt="" style="border: black 1px groove;position: relative; top:-20px;left: 60px; z-index: 1"/>
+<div style="background-color: #490a3d; position: absolute;bottom: 0;height: 40px;padding: 5px;width: 99.30%">
+	<div style="position:relative; left:820px;bottom:2px;margin-right: 50px">
+		<a href="https://www.facebook.com/"><img src="footer_img1.png" width="30" height="30" alt=""/> </a>
+	<a href="https://in.pinterest.com/"><img src="footer_img2.png" width="30" height="30" alt=""/> </a>
+	<a href="https://twitter.com/"><img src="footer_img3.png" width="30" height="30" alt=""/> </a>
+	<a href="https://plus.google.com/"><img src="footer_img4.png" width="30" height="30" alt=""/> </a>
+	</div>
+  </div>
+	</div>
+		  </div>
+		
+		  </div>
+		  
+		 </body>
+</html>

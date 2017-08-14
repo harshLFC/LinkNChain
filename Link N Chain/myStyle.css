@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#C4C4C4;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 17px;
+}
+
+h2{
+
+}
+
+ul{
+	padding:none;
+}
+
+li{
+	display: inline-block;	
+	border: 1px black solid;
+	position: relative;
+	left:20px;
+}
+
+#text{
+	color: black;
+	position: relative;
+	left: 20px;	
+	background-image: url(search_icon.png);
+	box-sizing: border-box;
+	width: 150px;
+    border: 2px solid #000;
+    border-radius: 2px;
+	font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+    font-size: 16px;
+    background-color: #ee3344;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+#text:focus {
+    width: 28%;
+}
+
+#scroll{
+	 position:absolute;
+    top: 100px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll; 
+}
+
+li a {
+	
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+	display: inline-block;
+	background-color: #E33437;
+	
+}
+
+li a:hover {
+    background-color: #490a3d;
+	color: white;
+	
+}
+
+#logo{
+   height: 70px;
+   width: 120px;
+	position: static;
+	left:10px;
+	
+}
+#logo a:hover{
+	background-image: url(Logo_2.png);	
+}
+
+h2 {
+	
+}
+
+p1{
+
+}
+p {
+	
+}
+#container { 
+	width: 960px; 
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#image{
+	left:40px;
+	position: 	relative;
+	
+}
+
+#featured{
+	border: solid black 1px;
+	height: 300px;
+}
+
+#pos{
+	position: relative;
+	left:700px;
+	top: -300px;
+}
+
+#inputButton {
+	position: relative;
+	left:800px;
+	top: -300px;
+	background-color: #ee3344;
+}
+#inputButton2{
+	background-color: #ee3344;
+}
+
+#inputButton:hover,#inputButton2:hover{
+	border-color:#333;
+	background-color: #490a3d;
+	color: white;
+}
+#form1{
+	width:60px;
+	
+	color: #ee3344;
+}
+
+#map{
+	padding: 0px;
+	
+	border: solid black 2px;
+	
+}
+
+#about{
+	position:relative;
+	border:solid black 1px;
+	padding: 20px;
+	
+}
+
+#mainText{
+	border: solid #000000 1px;
+	text-align: center;
+	color:#490a3d;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	background-color: #ee3344;
+}
+#mainText:hover{
+	color:white;
+	cursor: pointer;
+}
+
+#aboutPic{
+	
+	padding:10px;
+	float:left;
+	border:solid #000000 1px;
+	
+}
+
+#review{
+	top:300px;
+	right:10px;
+	border:solid #000000 1px;
+	
+}
+
+#reviw:hover{
+
+}
+
