@@ -2,7 +2,7 @@
 
 This is a dummy retail bike selling shop project.
 
-Link N Chain is a bike selling shop in DUblin which needed a website.
+Link N Chain is a bike selling shop in DUBLIN which needed a website.
 
 That is where I came in.
 
